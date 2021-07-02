@@ -34,6 +34,18 @@ ul {
     padding: auto;
 }
 
+h1 {
+    font-family: 'Syncopate', sans-serif;    font-size: 72px;
+    color: #ff8496;
+}
+
+h2 {
+    font-family: 'Syncopate', sans-serif;    font-size: medium;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
 li {
     padding: auto;
 }
@@ -41,10 +53,30 @@ li {
 footer {
     background-color: #373738;
     padding: auto;
-    
+    color: white;
 }
 
 footer ul {
     display: inline-block;
     vertical-align: top;
 }
+
+.flexContainer {
+    display: flex;
+    text-align: center;
+}
+
+.flexContainer div {
+    width: 33%;
+    padding: 40px;
+}
+
+.mySkills h1 {
+    text-align: center;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas: myArea myArea myArea myArea;
+}
+
